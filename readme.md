@@ -154,7 +154,7 @@ Now lets create a systemd service to start it after boot:
 ```
  pico /etc/systemd/system/redirect-brightness.service
  ```
-
+Add the following and save
 ```
 [Unit]
 Description=Redirect Backlight Brightness from one driver to another
